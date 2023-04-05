@@ -4,8 +4,6 @@ RSpec.describe 'Merchants Index Page' do
 	describe 'As a visitor' do
 		describe 'When I visit the merchants index page' do
 			before do
-				merchants = File.read('spec/fixtures/merchants.json')
-
 				visit "/merchants"
 			end
 
