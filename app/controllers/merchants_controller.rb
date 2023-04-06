@@ -1,12 +1,17 @@
 class MerchantsController < ApplicationController
 	def index
-		merchant_service = MerchantService.new
-		@merchants = merchant_service.all_merchants
+		@merchants = facade.all_merchants
 	end
 
 	def show
-		merchant_service = MerchantService.new
-		@merchant = merchant_service.merchant(params[:id])
-		@items = merchant_service.merchant_items(params[:id])
+		@merchant = facade.all_merchants.find { |merchant| 
+		merchant.id == params[:id] }
+		@items = facade.merchant_items(params[:id])
+	end
+
+	private
+
+	def facade
+		@facade ||= MerchantsFacade.new
 	end
 end
