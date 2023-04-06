@@ -239,10 +239,26 @@
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/3mod/projects/rails_engine_fe_7/spec/poros/merchant_spec.rb": {
+        "lines": [
+          1,
           null,
+          1,
+          1,
+          null,
+          1,
           null,
           null,
           null,
@@ -250,12 +266,25 @@
           null,
           null,
           1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
           1,
           null,
-          null,
-          null,
-          null,
-          null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/3mod/projects/rails_engine_fe_7/app/poros/merchant.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          201,
+          201,
+          201,
           null,
           null
         ]
@@ -266,6 +295,19 @@
           null,
           1,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -285,12 +327,12 @@
           null,
           null,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
-          4,
+          5,
           null,
           null,
           null,
@@ -349,19 +391,8 @@
           null,
           null
         ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/3mod/projects/rails_engine_fe_7/app/poros/merchant.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          200,
-          200,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1680810909
+    "timestamp": 1680812140
   }
 }
